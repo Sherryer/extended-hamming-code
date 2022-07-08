@@ -11,8 +11,7 @@ for (let i = 4; i < 10; i++) {
   var str = '1010101010101010101010101010101010';
   var encodeRes = encode(str);
   var decodeRes = decode(encodeRes);
-  // console.log(`encode:${str}`, encodeRes);
-  // console.log(`decode:${encodeRes}`, decodeRes);
+  // console.log(`encode:`, encodeRes);
+  // console.log(`decode:`, decodeRes);
   console.log('result:', decodeRes.code === str)
 }
-

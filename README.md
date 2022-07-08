@@ -66,8 +66,8 @@ const {
   originCode,
   decodeResult,
 } = decodeRes;
-console.log(`encode:${str}, `, encodeRes);
-console.log(`decode:${encodeRes}, `, decodeRes);
+console.log(`encode:`, encodeRes);
+console.log(`decode:`, decodeRes);
 console.log('is correct?', correct, code === str)
 
 ```
