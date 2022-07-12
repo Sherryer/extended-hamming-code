@@ -22,6 +22,13 @@ const {
 } = ExtendHammingCode.setConfig({
   pow: 4
 })
+
+// let encodeRes = encode('1100');
+// console.log(encodeRes) // 00111100
+// let decodeRes = decode('00111100');
+// console.log(decodeRes.code) // 1100
+// let decodeRes2 = decode('00111101');
+// console.log(decodeRes2.code) // 1100
 ```
 
 # Options
